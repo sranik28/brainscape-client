@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    background-color: #050505 !important;
+}
+
+body {
+    max-width: 1280px;
+    @apply max-w-[1440px] mx-auto;
+}
+
+p {
+    color: #ffffff65;
+}
+
+.container {
+    @apply px-3 mx-auto;
+}
+
+.course-details-p{
+    color: rgba(255, 255, 255, 0.65);
+}
